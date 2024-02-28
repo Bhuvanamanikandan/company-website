@@ -1,0 +1,19 @@
+.profile-container {
+    padding: 20px;
+    background-color: linear-gradient(to right, #ff5f6d, #ffc371 );
+    margin: 20px auto;
+    max-width: 800px; 
+    border-radius: 10px; 
+    color: black;
+  }
+  
+  .profile-container h2 {
+    color: black;
+  }
+  
+  .profile-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+  }
+  

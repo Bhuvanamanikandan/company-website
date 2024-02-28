@@ -1,0 +1,65 @@
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  margin: auto;
+  padding: 20px;
+  flex-wrap: nowrap;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+  margin: auto; 
+}
+
+.carousel-container img {
+  width: 50%; 
+  max-height: 200px; 
+  object-fit: contain; 
+  transition: tranform 0.5s ease;
+}
+
+.manufacturing-products {
+  color: black;
+}
+
+.manufacturing-products ul {
+  list-style: none;
+  padding: 0;
+}
+
+.manufacturing-products li {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  padding: 10px; 
+  width: 20%; 
+  box-sizing: border-box;
+}
+
+.image-container img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
+  display: block;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
